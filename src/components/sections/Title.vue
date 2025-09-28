@@ -132,7 +132,7 @@ const buttons = [
   {
     disabled: false,
     name: "Dataset",
-    link: "https://huggingface.co/xxx",
+    link: "https://github.com/ZGCA-AI4Edu/Euclids_Gift.git",
     component: MagicStick,
   },
   // {
