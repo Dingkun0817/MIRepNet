@@ -132,7 +132,7 @@ const buttons = [
   {
     disabled: false,
     name: "Dataset",
-    link: "https://github.com/ZGCA-AI4Edu/Euclids_Gift.git",
+    link: "https://huggingface.co/datasets/LiamLian0727/Euclid30K",
     component: MagicStick,
   },
   // {
