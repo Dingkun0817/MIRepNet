@@ -9,7 +9,7 @@ const links = {
   
   <div class="bg">
     
-    <el-watermark :content="['Euclid's Gift', 'ZGCA', 'ZGCAI']" :gap="['60','0']" :z-index="0">
+    <el-watermark :content="['Euclid\'s Gift', 'ZGCA', 'ZGCAI']" :gap="['60','0']" :z-index="0">
       <el-row justify="center">
         <p class="footer">
           This page was primarily created by <a :href="links.ShijieLian">Shijie Lian</a>.
