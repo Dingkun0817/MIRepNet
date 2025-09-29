@@ -3,16 +3,19 @@
 const links = {
     ShijieLian: "https://github.com/LiamLian0727"
 }
+
+// 水印内容
+const watermarkContent = ["Euclid's Gift", 'ZGCA', 'ZGCAI']
 </script>
 
 <template>
   
   <div class="bg">
     
-    <el-watermark :content="['Euclid\'s Gift', 'ZGCA', 'ZGCAI']" :gap="['60','0']" :z-index="0">
+    <el-watermark :content="watermarkContent" :gap="['60','0']" :z-index="0">
       <el-row justify="center">
         <p class="footer">
-          This page was primarily created by <a :href="links.ShijieLian">Shijie Lian</a>.
+          This page was created by <a :href="links.ShijieLian">Shijie Lian</a>.
         </p>
       </el-row>
     </el-watermark>
