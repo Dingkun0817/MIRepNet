@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 // 页脚需要的链接
 const links = {
-    ShijieLian: "https://github.com/LiamLian0727",
+    ShijieLian: "https://github.com/LiamLian0727"
 }
 </script>
 
