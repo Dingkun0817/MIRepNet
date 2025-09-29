@@ -6,7 +6,7 @@ import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@eleme
 import Banner from "./Banner.vue"
 
 // logo地址，没有则置为""即可
-const logo = './logo.png'
+const logo = ''
 
 // 标题
 const title = 'Euclid’s Gift: Enhancing Spatial Perception and Reasoning in Vision-Language Models via Geometric Surrogate Tasks'
