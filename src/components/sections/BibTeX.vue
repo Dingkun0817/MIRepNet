@@ -7,10 +7,10 @@ export default {
         "    title={Euclid’s Gift: Enhancing Spatial Perception and Reasoning in Vision-Language Models via Geometric Surrogate Tasks},",
         "    author={Shijie Lian and Changti Wu and Laurence Tianruo Yang and Hang Yuan and Bin Yu and Lei Zhang and Kai Chen},",
         "    year={2025},",
-        "    eprint={2505.09xxxx},",
+        "    eprint={2509.24473},",
         "    archivePrefix={arXiv},",
-        "    primaryClass={cs.CL},",
-        "    url={https://arxiv.org/abs/2505.09xxxx}",
+        "    primaryClass={cs.CV},",
+        "    url={https://arxiv.org/abs/2509.24473}",
         "}",
       ],
     }

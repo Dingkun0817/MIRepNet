@@ -120,7 +120,7 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
-    link: "https://arxiv.org/abs/2505.09xxx",
+    link: "https://arxiv.org/abs/2509.24473",
     component: Document,
   },
   {
