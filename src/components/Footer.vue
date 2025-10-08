@@ -1,11 +1,11 @@
 <script lang="ts" setup>
 // 页脚需要的链接
 const links = {
-    ShijieLian: "https://github.com/LiamLian0727"
+    DingkunLiu: "https://github.com/Dingkun0817"
 }
 
 // 水印内容
-const watermarkContent = ["Euclid's Gift", 'ZGCA', 'ZGCAI']
+const watermarkContent = ["MIRepNet", 'HUST', 'ZGCA']
 </script>
 
 <template>
@@ -15,7 +15,7 @@ const watermarkContent = ["Euclid's Gift", 'ZGCA', 'ZGCAI']
     <el-watermark :content="watermarkContent" :gap="['60','0']" :z-index="0">
       <el-row justify="center">
         <p class="footer">
-          This page was created by <a :href="links.ShijieLian">Shijie Lian</a>.
+          This page was created by <a :href="links.DingkunLiu">Dingkun Liu</a>.
         </p>
       </el-row>
     </el-watermark>

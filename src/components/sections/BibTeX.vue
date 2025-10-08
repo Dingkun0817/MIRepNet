@@ -3,14 +3,14 @@ export default {
   data() {
     return {
       bibtex: [
-        "@misc{Euclids_Gift,",
-        "    title={Euclid’s Gift: Enhancing Spatial Perception and Reasoning in Vision-Language Models via Geometric Surrogate Tasks},",
-        "    author={Shijie Lian and Changti Wu and Laurence Tianruo Yang and Hang Yuan and Bin Yu and Lei Zhang and Kai Chen},",
+        "@misc{liu2025mirepnetpipelinefoundationmodel,",
+        "    title={MIRepNet: A Pipeline and Foundation Model for EEG-Based Motor Imagery Classification},",
+        "    author={Dingkun Liu and Zhu Chen and Jingwei Luo and Shijie Lian and Dongrui Wu},",
         "    year={2025},",
-        "    eprint={2509.24473},",
+        "    eprint={2507.20254},",
         "    archivePrefix={arXiv},",
         "    primaryClass={cs.CV},",
-        "    url={https://arxiv.org/abs/2509.24473}",
+        "    url={https://arxiv.org/abs/2507.20254}",
         "}",
       ],
     }

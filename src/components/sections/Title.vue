@@ -9,7 +9,7 @@ import Banner from "./Banner.vue"
 const logo = ''
 
 // 标题
-const title = 'Euclid’s Gift: Enhancing Spatial Perception and Reasoning in Vision-Language Models via Geometric Surrogate Tasks'
+const title = 'MIRepNet: A Pipeline and Foundation Model for EEG-Based Motor Imagery Classification'
 
 // 标题颜色
 const title_color = '#000000'
@@ -26,50 +26,37 @@ const btn_color = '#444444'
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
   {
-    name: "Shijie Lian",
+    name: "Dingkun Liu",
     icon: "",
-    homepage: "https://github.com/LiamLian0727",
+    homepage: "https://github.com/Dingkun0817",
     address_flag: "1,2",
     isEqual: true
   },
   {
-    name: "Changti Wu",
+    name: "Zhu Chen",
     icon: "",
-    homepage: "https://github.com/ChangtiWu",
-    address_flag: "3,2",
+    homepage: "",
+    address_flag: "1",
     isEqual: true
   },
   {
-    name: "Laurence Tianruo Yang",
+    name: "Jingwei Luo",
     icon: "",
     homepage: "",
-    address_flag: "4,1",
+    address_flag: "1",
     isCorresponding: true
   },
   {
-    name: "Bin Yu",
+    name: "Shijie Lian",
     icon: "",
-    homepage: "https://github.com/yubinCloud",
-    address_flag: "2"
+    homepage: "https://github.com/LiamLian0727",
+    address_flag: "1,2"
   },
   {
-    name: "Hang Yuan",
+    name: "Dongrui Wu",
     icon: "",
-    homepage: "https://github.com/Faustrazor",
-    address_flag: "3"
-  },
-  {
-    name: "Lei Zhang",
-    icon: "",
-    homepage: "",
-    address_flag: "3"
-  },
-  {
-    name: "Kai Chen",
-    icon: "",
-    homepage: "",
-    address_flag: "5",
-    isCorresponding: true
+    homepage: "https://scholar.google.com/citations?user=UYGzCPEAAAAJ",
+    address_flag: "1,2"
   },
 ]
 
@@ -87,24 +74,6 @@ const addresses = [
     icon: "./ZGC.jpg",
     homepage: "http://bjzgca.edu.cn/"
   },
-  {
-    address_flag: "3",
-    name: "East China Normal University",
-    icon: "./ECNU.jpg",
-    homepage: "https://www.ecnu.edu.cn/"
-  },
-  {
-    address_flag: "4",
-    name: "Zhengzhou University",
-    icon: "./ZZU.png",
-    homepage: "https://www.zzu.edu.cn/"
-  },
-  {
-    address_flag: "5",
-    name: "Zhongguancun Institute of Artificial Intelligence",
-    icon: "./ZGCA.jpg",
-    homepage: "https://zgci.ac.cn//"
-  }
 ]
 
 // 强调内容
@@ -120,20 +89,20 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
-    link: "https://arxiv.org/abs/2509.24473",
+    link: "https://arxiv.org/abs/2507.20254",
     component: Document,
   },
   {
     disabled: false,
-    name: "Code",
-    link: "https://github.com/LiamLian0727/Euclids_Gift",
-    component: Files,
+    name: "HuggingFace",
+    link: "https://huggingface.co/starself/MIRepNet",
+    component: MagicStick,
   },
   {
     disabled: false,
-    name: "Dataset",
-    link: "https://huggingface.co/datasets/LiamLian0727/Euclid30K",
-    component: MagicStick,
+    name: "Code",
+    link: "https://github.com/staraink/MIRepNet",
+    component: Files,
   },
   // {
   //   disabled: true,
