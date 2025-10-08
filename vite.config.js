@@ -23,10 +23,11 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/MiRepNets',
+  base:'/MIRepNet',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
 })
+
