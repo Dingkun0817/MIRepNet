@@ -29,22 +29,19 @@ const authors = [
     name: "Dingkun Liu",
     icon: "",
     homepage: "https://github.com/Dingkun0817",
-    address_flag: "1,2",
-    isEqual: true
+    address_flag: "1,2"
   },
   {
     name: "Zhu Chen",
     icon: "",
     homepage: "",
-    address_flag: "1",
-    isEqual: true
+    address_flag: "1"
   },
   {
     name: "Jingwei Luo",
     icon: "",
     homepage: "",
-    address_flag: "1",
-    isCorresponding: true
+    address_flag: "1"
   },
   {
     name: "Shijie Lian",
@@ -56,7 +53,8 @@ const authors = [
     name: "Dongrui Wu",
     icon: "",
     homepage: "https://scholar.google.com/citations?user=UYGzCPEAAAAJ",
-    address_flag: "1,2"
+    address_flag: "1,2",
+	isCorresponding: true
   },
 ]
 
@@ -94,7 +92,7 @@ const buttons = [
   },
   {
     disabled: false,
-    name: "HuggingFace",
+    name: "Hugging Face",
     link: "https://huggingface.co/starself/MIRepNet",
     component: MagicStick,
   },
@@ -181,7 +179,6 @@ const buttons = [
 
     <!-- 共一和通讯提示内容 -->
     <el-row justify="center" class="con-cor">
-      <el-icon :size="14" style="margin-right:4px;"><Star /></el-icon> These authors contributed equally, 
       <el-icon :size="14" style="margin:0 4px;"><Message /></el-icon> Corresponding author.
     </el-row>
 
@@ -332,3 +329,4 @@ a {
 }
 
 </style>
+
