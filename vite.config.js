@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/Euclids_Gift',
+  base:'/MiRepNets',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
